@@ -1,0 +1,28 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "practicing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awhit012/practice.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "mongo",
+    "mongoos"
+  ],
+  "author": "Alex White <awhit012@gmail.com> (http://www.awhit012.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/awhit012/practice/issues"
+  },
+  "homepage": "https://github.com/awhit012/practice#readme",
+  "dependencies": {
+    "express": "4.13.3"
+  }
+}
