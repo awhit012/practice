@@ -1,32 +1,58 @@
 SETUP
 
-1. mkdir my-project
-2. cd my-project
-3. git init
-4. Go to GitHub, create new repo
-5. Don't click add README
-6. git remote add
-7.  touch app.js
-8. npm init, and fill out with app.js as entry point
-9. npm install express --save
+- mkdir my-project
+- cd my-project
+- git init
+- Go to GitHub, create new repo
+- Don't click add README
+- git remote add
+-  touch app.js
+- npm init, and fill out with app.js as entry point
+- npm install express --save
 
 EXPRESS HELLO WORLD
 
-10. require express and start app 
-11. create basic GET route
-12. set up server to listen on port. 
-13. add optional but reccomended log of address and port
-14. run node app.js 
-15. open localhost::3000 in browser
+- require express and start app 
+- create basic GET route
+- set up server to listen on por- 
+- add optional but reccomended log of address and port
+- run node app.js 
+- open localhost::3000 in browser
+- git add -A
+- git commit
 
 NODEMON
-16. Stop server
-17. npm install -g nodemon
-18. nodemon app.js
+- Stop server
+- npm install -g nodemon
+- nodemon app.js
 
-Express Static Routes
-19. mkdir public
-20. touch public/index.html
-21. paste html in from blank-template
+EXPRESS STATIC ROUTES
+
+- npm install ejs -s
+- app.set('view engine', 'ejs');
+- res.render('index') in place of res.send
+- mkdir views
+- touch views/index.ejs
+- throw hello world in index.ejs and make sure it works
+
+CONNECT MONGO AND MONGOOSE
+- npm install mongodb -s
+- npm install mongoose -s
+- in new terminal window mkdir /data/db
+- mongod
+- in app.js require and connect mongoose
+- add function to log a message when we are connected. 
+ADD SCHEMA FOR SHOUTS
+- create Schema attribute on mongoose with attribute we need
+- compile to model
+- create instance and log attribute to know it works
+
+Now just explain that you would actually create the new instances from the post method, and get the params from the req. Take a bow. 
+
+
+
+
+
+
 
 
